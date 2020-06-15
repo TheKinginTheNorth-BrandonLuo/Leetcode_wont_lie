@@ -48,7 +48,7 @@ class Solution(object):
         else:
             Median_index1 = int(length / 2 ) - 1 
             Median_index2 = int(length / 2)
-            return float((nums[Median_index1] + nums[Median_index2]) / 2) 
+            return float((nums[Median_index1] + nums[Median_index2]) / 2.0) 
 obl = Solution()
 test1 = [1,2]
 test2 = [3,4]
