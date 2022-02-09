@@ -23,7 +23,7 @@ class Solution:
     def preorderTraversal(self, root):
         if root is None:
             return []
-        stack = root
+        stack = [root]
         res = []
         while stack != []:
             root = stack.pop()
